@@ -370,7 +370,7 @@ export const PropertyPanel: React.FC<PropertyPanelProps> = ({
             {selectedElement.type === 'arc' && (
               <>
                 <li>• Le poids détermine le nombre de jetons consommés/produits</li>
-                <li>• Un poids > 1 est affiché sur l'arc</li>
+                <li>• Un poids "{'>'}" 1 est affiché sur l'arc</li>
                 <li>• Les arcs relient places et transitions</li>
               </>
             )}
